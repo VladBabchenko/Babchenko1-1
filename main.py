@@ -7,7 +7,5 @@ for _ in range(n):
 
 zero_indices = [i for i, x in enumerate(arr) if x == 0]
 
-if len(zero_indices) == 0:
-    print("Нульові елементи відсутні в масиві.")
-else:
-    print("Індекси нульових елементів:", *zero_indices)
+
+print("Індекси нульових елементів:", *zero_indices)
